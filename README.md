@@ -113,7 +113,11 @@ O arquivo `nlog.config` é utilizado para configurar o registro de logs do proje
    ```bash
    dotnet restore
    ```
-3. **Compile e execute:**
+3. **Configuração do `config.json` e `nlog.config`:**
+- Navegue até as pastas do `config.json` e `nlog.config` e configure-os conforme o exemplo citado acima.
+- Salve-os.
+  
+4. **Compile e execute:**
    ```bash
    dotnet run
    ```
