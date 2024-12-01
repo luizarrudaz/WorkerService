@@ -30,7 +30,7 @@ Seu objetivo é processar comandos recebidos em um arquivo de configuração (`r
 ## **Instalação e Execução**
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/luizarrudas/WorkerService.git
+   https://github.com/luizarrudaz/WorkerService.git
    ```
 2. **Restaure as dependências:**
    ```bash
