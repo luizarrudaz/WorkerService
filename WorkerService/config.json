@@ -1,0 +1,31 @@
+﻿{
+  "Driver": "chrome",
+  "Url": "https://www.chavesnamao.com.br/carros/brasil/",
+  "CarToBeSearched": "Ferrari",
+  "SearchFieldId": "inpSearch",
+  "ResultBlock": ".block",
+  "ResultFieldSelector": "//div[@class=\"veiculos__Card-sc-3pfc6p-0 igtaVV   \"]",
+  "CarInfoSelectors": {
+    "Name": "h2 > span",
+    "Description": "h2 > small",
+    "Price": "p.price > b",
+    "Year": "ul.list > li",
+    "Origin": "h3"
+  },
+  "SftpConfig": {
+    "Protocol": "Sftp",
+    "SshHostKeyFingerprint": "ssh-rsa 2048 oAlOFUsNm0XpPq9oTk+2xQF+h5B/zmjWLKyleBgofC8",
+    "Server": "192.168.56.1",
+    "Port": 3222,
+    "User": "luizarruda",
+    "Password": "luizarruda"
+  },
+  "FilePaths": {
+    "LocalFilesPath": "C:\\Users\\luiz.arruda\\source\\repos\\WorkerService\\WorkerService\\bin\\Debug\\net8.0\\archivesJson",
+    "RemoteFilesPath": "/"
+  },
+  "DelayOfWorkers": {
+    "SeleniumWorkerDelay": 90000,
+    "SftpWorkerDelay": 120000
+  }
+}
