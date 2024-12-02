@@ -23,6 +23,8 @@ public class Watcher : BackgroundService
 
     protected override async Task ExecuteAsync(CancellationToken stoppingToken)
     {
+        _logger.LogWarning("");
+        _logger.LogWarning("--------------------------------------------------------------");
         _logger.LogInformation("Iniciando o monitoramento do arquivo de reprocessamento...");
         while (!stoppingToken.IsCancellationRequested)
         {
@@ -61,7 +63,8 @@ public class Watcher : BackgroundService
                 }
 
                 _logger.LogInformation($"Arquivo '{e.Name}' foi modificado. Reprocessamento ativado.");
-                ReadFileProperties(); 
+                ReadFileProperties();
+                LogProperties();
             }
             catch (Exception ex)
             {
@@ -84,7 +87,7 @@ public class Watcher : BackgroundService
     public void CreateOrOverwriteFile()
     {
         int retryCount = 30;
-        int retryDelay = 500; // ms
+        int retryDelay = 500;
 
         for (int attempt = 1; attempt <= retryCount; attempt++)
         {
@@ -106,7 +109,6 @@ public class Watcher : BackgroundService
                 }
 
                 FileHelper.CreateOrOverwriteFile(_filePath, defaultContent);
-                _logger.LogInformation("Arquivo reprocess.txt criado ou sobrescrito com os valores padrão.");
                 break;
             }
             catch (IOException ex) when (attempt < retryCount)
@@ -160,9 +162,6 @@ public class Watcher : BackgroundService
             _reprocessConfig.Reprocess = ParseReprocessValue(properties.reprocess);
             _reprocessConfig.CarToBeSearched = properties.carToBeSearched;
             _reprocessConfig.Date = properties.date;
-
-            _logger.LogInformation("Propriedades carregadas com sucesso.");
-            LogProperties();
 
             // Verifica se o reprocessamento foi solicitado
             if (_reprocessConfig.Reprocess)
