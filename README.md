@@ -94,7 +94,7 @@ O arquivo `nlog.config` é utilizado para configurar o registro de logs do proje
 
 ## **Tecnologias Utilizadas**
 ### **Backend**
-- **.NET Core 6.0**: Framework principal para o desenvolvimento do serviço.
+- **.NET Core 8.0**: Framework principal para o desenvolvimento do serviço.
 - **Selenium WebDriver**: Biblioteca para automação de tarefas no navegador.
 - **NLog**: Ferramenta de logging para monitorar o desempenho e erros no sistema.
 
@@ -113,7 +113,11 @@ O arquivo `nlog.config` é utilizado para configurar o registro de logs do proje
    ```bash
    dotnet restore
    ```
-3. **Compile e execute:**
+3. **Configuração do `config.json` e `nlog.config`:**
+- Navegue até as pastas do `config.json` e `nlog.config` e configure-os conforme o exemplo citado acima.
+- Salve-os.
+  
+4. **Compile e execute:**
    ```bash
    dotnet run
    ```
