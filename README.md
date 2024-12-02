@@ -88,7 +88,6 @@ O arquivo `nlog.config` é utilizado para configurar o registro de logs do proje
 		<logger name="*" minlevel="Error" writeTo="logError" />
 	</rules>
 </nlog>
-
 ```
 
 ---
