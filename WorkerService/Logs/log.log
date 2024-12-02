@@ -1,0 +1,49 @@
+2024-12-02 12:54:47.3561|Warn|
+2024-12-02 12:54:47.3694|Warn|--------------------------------------------------------------
+2024-12-02 12:54:47.3694|Info|Iniciando o monitoramento do arquivo de reprocessamento...
+2024-12-02 12:54:49.1222|Info|Driver Chrome iniciado.
+2024-12-02 12:54:50.2548|Info|Navegando para a URL: https://www.chavesnamao.com.br/carros/brasil/
+2024-12-02 12:54:50.2826|Info|Iniciando pesquisa por: Ferrari
+2024-12-02 12:54:55.8144|Info|Foram encontrados 15 resultados.
+2024-12-02 12:54:56.0860|Info|Navegador encerrado.
+2024-12-02 12:54:56.0971|Info|Iniciando a serialização para JSON.
+2024-12-02 12:54:56.1129|Info|Arquivo formatado para .json com sucesso.
+2024-12-02 12:54:56.1129|Info|Resultados serializados para JSON.
+2024-12-02 12:54:56.1187|Info|Arquivo reprocess.txt criado ou sobrescrito com os valores padrão.
+2024-12-02 12:54:56.1187|Info|Arquivo 'reprocess.txt' foi modificado. Reprocessamento ativado.
+2024-12-02 12:54:56.1187|Info|Arquivo reprocess.txt resetado.
+2024-12-02 12:54:56.1187|Info|Reprocess: False
+2024-12-02 12:54:56.1187|Info|CarToBeSearched: 
+2024-12-02 12:54:56.1187|Info|Date: 02-12-2024_12h54m
+2024-12-02 12:54:56.1187|Info|Delay configurado: 90000ms
+2024-12-02 12:54:56.1187|Info|Iniciando o SftpWorker...
+2024-12-02 12:54:56.1187|Info|SftpWorker iniciou.
+2024-12-02 12:54:56.5624|Info|Conexão estabelecida com o servidor 192.168.56.1.
+2024-12-02 12:54:56.6270|Info|Arquivo enviado com sucesso: C:\Users\luiz.arruda\source\repos\WorkerService\WorkerService\bin\Debug\net8.0\archivesJson\veiculos_02-12-2024_12h54m.json -> /veiculos_02-12-2024_12h54m.json
+2024-12-02 12:54:56.6270|Info|Application started. Press Ctrl+C to shut down.
+2024-12-02 12:54:56.6270|Info|Hosting environment: Development
+2024-12-02 12:54:56.6270|Info|Content root path: C:\Users\luiz.arruda\source\repos\WorkerService\WorkerService
+2024-12-02 12:54:58.2584|Info|Sessão desconectada com sucesso.
+2024-12-02 12:54:58.2604|Info|Arquivos locais deletados.
+2024-12-02 12:54:58.2604|Info|Delay configurado para o SftpWorker: 120000ms
+2024-12-02 12:56:27.9704|Info|Driver Chrome iniciado.
+2024-12-02 12:56:29.0477|Info|Navegando para a URL: https://www.chavesnamao.com.br/carros/brasil/
+2024-12-02 12:56:29.0477|Info|Iniciando pesquisa por: Ferrari
+2024-12-02 12:56:34.4932|Info|Foram encontrados 15 resultados.
+2024-12-02 12:56:34.8971|Info|Navegador encerrado.
+2024-12-02 12:56:34.8971|Info|Iniciando a serialização para JSON.
+2024-12-02 12:56:34.9001|Info|Arquivo formatado para .json com sucesso.
+2024-12-02 12:56:34.9001|Info|Resultados serializados para JSON.
+2024-12-02 12:56:34.9001|Info|Arquivo 'reprocess.txt' foi modificado. Reprocessamento ativado.
+2024-12-02 12:56:34.9169|Info|Arquivo reprocess.txt criado ou sobrescrito com os valores padrão.
+2024-12-02 12:56:34.9169|Info|Arquivo reprocess.txt resetado.
+2024-12-02 12:56:34.9169|Info|Delay configurado: 90000ms
+2024-12-02 12:56:34.9169|Info|Reprocess: False
+2024-12-02 12:56:34.9169|Info|CarToBeSearched: 
+2024-12-02 12:56:34.9169|Info|Date: 02-12-2024_12h54m
+2024-12-02 12:56:58.2760|Info|SftpWorker iniciou.
+2024-12-02 12:56:58.6031|Info|Conexão estabelecida com o servidor 192.168.56.1.
+2024-12-02 12:56:58.6631|Info|Arquivo enviado com sucesso: C:\Users\luiz.arruda\source\repos\WorkerService\WorkerService\bin\Debug\net8.0\archivesJson\veiculos_02-12-2024_12h56m.json -> /veiculos_02-12-2024_12h56m.json
+2024-12-02 12:57:00.2841|Info|Sessão desconectada com sucesso.
+2024-12-02 12:57:00.2841|Info|Arquivos locais deletados.
+2024-12-02 12:57:00.2841|Info|Delay configurado para o SftpWorker: 120000ms
