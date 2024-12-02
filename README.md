@@ -73,12 +73,12 @@ O arquivo `nlog.config` é utilizado para configurar o registro de logs do proje
 
 	<targets>
 		<target xsi:type="File" name="logfile"
-                fileName="C:\Users\luiz.arruda\source\repos\WorkerService\WorkerService\bin\Debug\net8.0\logs\log.log"
+                fileName="C:\Users\luiz.arruda\source\repos\WorkerService\WorkerService\Logs\log.log"
                 layout="${longdate}|${level}|${message}"
                 createDirs="true" />
 
 		<target xsi:type="File" name="logError"
-                fileName="C:\Users\luiz.arruda\source\repos\WorkerService\WorkerService\bin\Debug\net8.0\logs\logError.log"
+                fileName="C:\Users\luiz.arruda\source\repos\WorkerService\WorkerService\Logs\logError.log"
                 layout="${longdate}|${level}|${message}"
                 createDirs="true" />
 	</targets>
@@ -88,6 +88,7 @@ O arquivo `nlog.config` é utilizado para configurar o registro de logs do proje
 		<logger name="*" minlevel="Error" writeTo="logError" />
 	</rules>
 </nlog>
+
 ```
 
 ---
