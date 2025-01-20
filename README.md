@@ -2,7 +2,8 @@
 
 ## **Visão Geral**
 O projeto **WorkerService** é um serviço backend que integra monitoramento de arquivos com automação web utilizando Selenium WebDriver.  
-Seu objetivo é processar comandos recebidos em um arquivo de configuração (`reprocess.txt`), buscar informações em sites utilizando Selenium, padronizar e salvar os resultados em formato JSON e enviá-los para um servidor SFTP.
+Seu objetivo é processar comandos recebidos no arquivo de configuração (`config.json`), buscar informações em sites utilizando Selenium, padronizar e salvar os resultados em formato JSON e enviá-los para um servidor SFTP.
+Todos os dados já processados podem ser reprocessados a partir do arquivo de reprocessamento (`reprocess.txt`) de forma simples e intuitiva.
 
 ---
 
